@@ -26,5 +26,9 @@ export interface SharedSettings {
     honeypot: {
         server: string;
         reportChannel: string;
+    },
+    info: {
+        allowedRoles: string[],
+        command: string
     }
 }
